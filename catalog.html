@@ -127,21 +127,52 @@
         <section class="catalog">
             <h2 class="shop-services-filter-title">СПИСОК УСЛУГ</h2>
             <ul class="catalog-list">
-                <li class="catalog-list-item">
-                    <img class="browser" src="img/browser.png" alt="Image-head-at-focus" width="360" height="40">
-                    <img class="catalog-image" src="img/img-sedona-1.jpg" alt="SEDONA" width="358" height="578">
-                    <div class="catalog-list-item-underlayer">
-                        <a href="#">
-                            <p class="catalog-list-item-title">SEDONA</p>
-                            <p class="catalog-list-item-title-desc">Информационный сайт<br>для туристов</p>
-                        </a>
-                        <button class="button-left" type="button">9 900 ₽</button>
+                <li>
+                    <div class="card">
+                        <div class="browser-panel">
+                            <svg width="360" height="40" viewBox="0 0 360 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M4 0H356C358.2 0 360 1.8 360 4V40H0V4C0 1.8 1.8 0 4 0ZM16.9288 23.5C18.1792 25.6658 20.4901 27 22.991 27C26.857 27 29.991 23.866 29.991 20C29.991 16.134 26.857 13 22.991 13C20.4901 13 18.1792 14.3342 16.9288 16.5C15.6784 18.6658 15.6784 21.3342 16.9288 23.5ZM46.002 27C43.5011 27 41.1902 25.6658 39.9398 23.5C38.6893 21.3342 38.6893 18.6658 39.9398 16.5C41.1902 14.3342 43.5011 13 46.002 13C49.8679 13 53.002 16.134 53.002 20C53.002 23.866 49.8679 27 46.002 27ZM62.9505 23.5C64.201 25.6658 66.5118 27 69.0127 27C72.8787 27 76.0127 23.866 76.0127 20C76.0127 16.134 72.8787 13 69.0127 13C66.5118 13 64.201 14.3342 62.9505 16.5C61.7001 18.6658 61.7001 21.3342 62.9505 23.5Z" fill="#4D4D4D"/>
+                            </svg>
+                        </div>
+                        <div class="browser-window">
+                            <svg width="360" height="580" viewBox="0 0 360 580" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0 0H360V575C360 577.761 357.761 580 355 580H5C2.23858 580 0 577.761 0 575V0Z" fill="#F2F2F2"/>
+                                <path d="M0.5 0.5H359.5V575C359.5 577.485 357.485 579.5 355 579.5H5C2.51472 579.5 0.5 577.485 0.5 575V0.5Z" stroke="black" stroke-opacity="0.1"/>
+                            </svg>
+                        </div>
+                        <p class="card-image">
+                            <img src="img/img-sedona-1.jpg" alt="SEDONA" width="358" height="578">
+                        </p>
+                        <div class="card-info">
+                            <a href="#">
+                                <h4>
+                                    <span class="card-title">SEDONA</span>
+                                </h4>
+                            </a>
+                            <p class="card-desc">Информационный сайт<br>для туристов</p>
+                            <button class="button button-4" type="button">9 900 ₽</button>
+                        </div>
                     </div>
                 </li>
-            </ul>
-            <ul class="catalog-list">
+                    <!--
                 <li class="catalog-list-item">
-                    <img class="browser" src="img/browser.png" alt="Image-head-at-focus" width="360" height="40">
+                    <div class="card">
+                        <div class="browser">
+                            <svg width="360" height="40" viewBox="0 0 360 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M4 0H356C358.2 0 360 1.8 360 4V40H0V4C0 1.8 1.8 0 4 0ZM16.9288 23.5C18.1792 25.6658 20.4901 27 22.991 27C26.857 27 29.991 23.866 29.991 20C29.991 16.134 26.857 13 22.991 13C20.4901 13 18.1792 14.3342 16.9288 16.5C15.6784 18.6658 15.6784 21.3342 16.9288 23.5ZM46.002 27C43.5011 27 41.1902 25.6658 39.9398 23.5C38.6893 21.3342 38.6893 18.6658 39.9398 16.5C41.1902 14.3342 43.5011 13 46.002 13C49.8679 13 53.002 16.134 53.002 20C53.002 23.866 49.8679 27 46.002 27ZM62.9505 23.5C64.201 25.6658 66.5118 27 69.0127 27C72.8787 27 76.0127 23.866 76.0127 20C76.0127 16.134 72.8787 13 69.0127 13C66.5118 13 64.201 14.3342 62.9505 16.5C61.7001 18.6658 61.7001 21.3342 62.9505 23.5Z" fill="#4D4D4D"/>
+                            </svg>
+                        </div>
+                        <img class="catalog-image" src="img/sedona.jpg" alt="SEDONA" width="358" height="578">
+                        <div class="catalog-list-item-underlayer">
+                            <a href="#">
+                                <p class="catalog-image-title">SEDONA</p>
+                                <p class="catalog-image-title-desc">Информационный сайт<br>для туристов</p>
+                            </a>
+                            <button class="button button-red" type="button">9 900 ₽</button>
+                        </div>
+                    </div>
+                </li>
+                <li class="catalog-list-item">
                     <img class="catalog-image" src="img/img-pink-1.jpg" alt="Pink" width="358" height="578">
                     <div class="catalog-list-item-underlayer">
                         <a href="#">
@@ -151,10 +182,7 @@
                         <button class="button-left" type="button">9 900 ₽</button>
                     </div>
                 </li>
-            </ul>
-            <ul class="catalog-list">
                 <li class="catalog-list-item">
-                    <img class="browser" src="img/browser.png" alt="Image-head-at-focus" width="360" height="40">
                     <img class="catalog-image" src="img/img-barbershop-1.jpg" alt="Borodinski" width="358" height="578">
                     <div class="catalog-list-item-underlayer">
                         <a href="#">
@@ -164,10 +192,7 @@
                         <button class="button-left" type="button">9 900 ₽</button>  
                     </div>
                 </li>
-            </ul>
-            <ul class="catalog-list">
                 <li class="catalog-list-item">
-                    <img class="browser" src="img/browser.png" alt="Image-head-at-focus" width="360" height="40">
                     <img class="catalog-image" src="img/img-mishka-1.jpg" alt="MISHKA" width="358" height="578">
                     <div class="catalog-list-item-underlayer">
                         <a href="#">
@@ -177,10 +202,7 @@
                     <button class="button-left" type="button">9 900 ₽</button>
                     </div>
                 </li>
-            </ul>
-            <ul class="catalog-list">
                 <li class="catalog-list-item">
-                    <img class="browser" src="img/browser.png" alt="Image-head-at-focus" width="360" height="40">
                     <img class="catalog-image" src="img/img-aplus-1.jpg" alt="A-plus" width="358" height="578">
                     <div class="catalog-list-item-underlayer">
                         <a href="#">
@@ -190,10 +212,7 @@
                         <button class="button-left" type="button">9 900 ₽</button>
                     </div>
                 </li>
-            </ul>
-            <ul class="catalog-list">
                 <li class="catalog-list-item">
-                    <img class="browser" src="img/browser.png" alt="Image-head-at-focus" width="360" height="40">
                     <img class="catalog-image" src="img/img-kvast-1.jpg" alt="КВАСТ" width="358" height="578">
                     <div class="catalog-list-item-underlayer">
                         <a href="#">
@@ -202,7 +221,7 @@
                         </a>
                     <button class="button-left" type="button">9 900 ₽</button>
                     </div>
-                </li>
+                </li>-->
             </ul>
             <ul class="pagination-list">
                 <li class="pagination-item pagination-item-current">
@@ -225,7 +244,7 @@
         <section class="footer-contacts">
             <h2 id="contactsnav">КОНТАКТЫ</h2><!--Скрытый заголовок--><!--id="contacts" - ссылка-якорь-->
             <img class="footer-map" src="img/map-and-marker.jpg" alt="Карта" width="1440" height="416">
-            <div class="contacts-background">
+            <div class="contacts-block">
                 <h3>NЁRDS DESIGN STUDIO</h3>
                 <p>191186, Санкт-Петербург,<br>ул. Б. Конюшенная, д. 19/8</p>
                 <p>
@@ -256,7 +275,7 @@
                     </a>
                 </li>
             </ul>
-            <b class="footer-slogan">Давайте дружить, это выгодно!</b>
+            <p><strong class="footer-slogan">Давайте дружить, это выгодно!</strong></p>
             <p class="footer-offer">Скидка 10% для друзей из социальных сетей.</p>
         </section>
     </footer>
